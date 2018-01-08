@@ -1,0 +1,83 @@
+@media (min-width: 577px) and (max-width: 990px) {
+
+  nav span {
+    display: inline-block;
+  }
+
+  .cont-img {
+    width: 100%;
+    margin-bottom: 40px;
+  }
+  .cont-img .hide, nav .hide {
+    display: none;
+  }
+  .cont-img:nth-child(3) {
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 40px;
+  }
+
+  .logo {
+    background-image: url(../assets/images/working.jpg);
+  }
+
+  .section {
+    padding: 0 15px;
+  }
+
+  .title {
+    width: 70%;
+  }
+}
+
+@media (max-width: 576px) {
+  nav span {
+    display: inline-block;
+  }
+
+  section .col:not(.card) {
+    margin: 1% 0 1% 0%;
+  }
+
+  .cont-img {
+    margin-bottom: 40px;
+  }
+
+  .cont-img:nth-child(3) {
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 40px;
+  }
+
+  .hide {
+    display: none;
+  }
+
+  .logo {
+    background-image: url(../assets/images/working.jpg);
+  }
+
+  .section {
+    padding: 0 15px;
+  }
+
+  .span_a,
+  .span_b,
+  .span_c,
+  .span_d,
+  .span_e,
+  .span_f,
+  .span_g,
+  .span_h,
+  .span_i,
+  .span_j,
+  .span_k,
+  .span_l {
+    width: 100%;
+  }
+
+  .title {
+    width: 70%;
+  }
+
+}
